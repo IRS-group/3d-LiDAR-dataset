@@ -98,3 +98,7 @@ If you use this dataset in your research, please cite the following paper:
 ---
 
 For any questions or contributions, please feel free to submit an issue or a pull request.
+
+## License
+
+This dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/). Please provide appropriate credit if using this dataset.
