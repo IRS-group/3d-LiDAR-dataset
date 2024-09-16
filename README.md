@@ -12,11 +12,37 @@ The dataset includes LiDAR point cloud data acquired using the following sensors
 
 The sensors were vertically stacked on a Clearpath Robotics Jackal robot, ensuring minimal occlusion of the field of view (FOV) and enabling direct comparison of sensor data captured from the same trajectory.
 
+<div align="center">
+  <img src="images/setup.jpg" alt="LiDAR setup on Jackal robot" width="400"/>
+</div>
+
 The dataset consists of data captured in three different environments:
 
-1. **Outdoor Garden**: A small garden containing trees, benches, lampposts, and surrounding buildings.
-2. **Road Segment**: A section of road with construction signs, vehicles, and nearby buildings.
-3. **Indoor Office Space**: An office environment with narrow corridors, desks, and large windows.
+The dataset contains point clouds for the following environments:
+
+1. **Outdoor Garden**: 
+   - Trees, benches, lampposts, surrounding buildings.
+   - Best suited for outdoor SLAM or object detection tasks.
+   
+   <div align="center">
+     <img src="images/google_earth_garden_range_att.jpg" alt="Outdoor Garden" width="400"/>
+   </div>
+
+3. **Road Segment**: 
+   - Road with construction signs, vehicles, and surrounding buildings.
+   - Suitable for urban navigation and obstacle detection comparisons.
+   
+   <div align="center">
+     <img src="images/google_earth_road_att.jpg" alt="Road Segment" width="400"/>
+   </div>
+
+5. **Indoor Office Space**: 
+   - Narrow corridors, desks, large windows.
+   - Ideal for indoor navigation and mapping experiments.
+   
+   <div align="center">
+     <img src="images/corridor.jpg" alt="Indoor Office Space" width="400"/>
+   </div>
 
 ## Data Acquisition Setup
 
