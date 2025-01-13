@@ -10,6 +10,12 @@ The dataset includes LiDAR point cloud data acquired using the following sensors
 - **Ouster OS1** (mounted in the middle)
 - **Livox Mid-360** (mounted at the top)
 
+The specifications of the sensors used can be seen bellow:
+
+<div align="center">
+  <img src="images/lidarspecifications.png" alt="LiDAR specifications" width="400"/>
+</div>
+
 The sensors were vertically stacked on a Clearpath Robotics Jackal robot, ensuring minimal occlusion of the field of view (FOV) and enabling direct comparison of sensor data captured from the same trajectory.
 
 <div align="center">
